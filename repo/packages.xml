@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unsafepackages>
+  <!-- Demo purposes only -->
   <package id="NonExistent" version="1.0.0" />
+  
+  <!-- Actual packages - Have something you want to add? Please send a pull request -->
+  <package id="AntiXSS" before="4.2.1" />
+
 </unsafepackages>

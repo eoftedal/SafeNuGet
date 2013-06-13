@@ -2,12 +2,18 @@
 <package >
   <metadata>
     <id>SafeNuGet</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>Erlend Oftedal</authors>
     <owners>Erlend Oftedal</owners>
     <projectUrl>https://github.com/eoftedal/SafeNuGet</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>MsBuild task to warn about insecure NuGet libraries</description>
+    <summary>MsBuild task to warn about insecure NuGet libraries.</summary>
+    <description>
+      MsBuild task to warn about insecure NuGet libraries. To enable you have to add it as a build task in your project file. See the bottom of this file for an example: https://github.com/eoftedal/SafeNuGet/blob/master/DemoLib/DemoLib.csproj
+
+      Please contribute to the list of vulnerable libraries, by issuing a pull request to:
+      https://github.com/eoftedal/SafeNuGet/blob/master/repo/packages.xml
+    </description>
     <releaseNotes>First version</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>Security</tags>

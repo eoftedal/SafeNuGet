@@ -5,5 +5,6 @@
   
   <!-- Actual packages - Have something you want to add? Please send a pull request -->
   <package id="AntiXSS" before="4.2.1" />
+  <package id="Bytescout.Spreadsheet" before="2.30.1183" />
 
 </unsafepackages>

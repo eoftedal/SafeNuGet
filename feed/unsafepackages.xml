@@ -4,6 +4,7 @@
   <package id="NonExistent" version="1.0.0" />
   
   <!-- Actual packages - Have something you want to add? Please send a pull request -->
+  <!-- possible version descriptors are version, before, beforeOrAt, after, afterOrAt -->
   <package id="AntiXSS" before="4.2.1" />
   <package id="Bytescout.Spreadsheet" before="2.30.1183" />
 

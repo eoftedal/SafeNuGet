@@ -74,7 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestFiles\unsafepackages.xml" />
-    <None Include="TestFiles\packages.config" />
+    <None Include="TestFiles\packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

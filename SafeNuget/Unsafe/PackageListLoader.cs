@@ -14,7 +14,7 @@ namespace SafeNuGet.Unsafe
     {
         public UnsafePackages GetUnsafePackages()
         {
-            var request = WebRequest.Create("https://raw.github.com/eoftedal/SafeNuGet/master/repo/packages.xml");
+            var request = WebRequest.Create("https://raw.github.com/eoftedal/SafeNuGet/master/feed/unsafepackages.xml");
             using (var response = request.GetResponse())
             {
                 using (var stream = response.GetResponseStream())

@@ -9,8 +9,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>MsBuild task to warn about insecure NuGet libraries.</summary>
     <description>
-      MsBuild task to warn about insecure NuGet libraries. To enable you have to add it as a build task in your project file. See the bottom of this file for an example: https://github.com/eoftedal/SafeNuGet/blob/master/DemoLib/DemoLib.csproj
-
+      MsBuild task to warn about insecure NuGet libraries. 
+      
       Please contribute to the list of vulnerable libraries, by issuing a pull request to:
       https://github.com/eoftedal/SafeNuGet/blob/master/feed/unsafepackages.xml
     </description>

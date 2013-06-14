@@ -8,10 +8,10 @@ Installation
 1. Install the NuGet package or copy the dll into your project
 2. Alter the .csproj files of your solution to run the MsBuild task. Make sure AssemblyFile points to the location of your SafeNuGet.dll:
 
-    <UsingTask AssemblyFile="SafeNuGet.dll" TaskName="SafeNuGet.AreNuGetPackagesSafe" />
-    <Target Name="AfterBuild">
-      <AreNuGetPackagesSafe />
-    </Target>
+        <UsingTask AssemblyFile="SafeNuGet.dll" TaskName="SafeNuGet.AreNuGetPackagesSafe" />
+        <Target Name="AfterBuild">
+            <AreNuGetPackagesSafe />
+        </Target>
 
 3. Build
 

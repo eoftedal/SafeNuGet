@@ -10,7 +10,7 @@ Installation
     <UsingTask AssemblyFile="SafeNuGet.dll" TaskName="SafeNuGet.AreNuGetPackagesSafe" />
     <Target Name="AfterBuild">
       <AreNuGetPackagesSafe />
-    </Target>`
+    </Target>
 3. Build
 
 Want to contribute?

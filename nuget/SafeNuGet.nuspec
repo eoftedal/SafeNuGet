@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SafeNuGet</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>Erlend Oftedal</authors>
     <owners>Erlend Oftedal</owners>
     <projectUrl>https://github.com/eoftedal/SafeNuGet</projectUrl>
@@ -18,4 +18,8 @@
     <copyright>Copyright 2013</copyright>
     <tags>Security</tags>
   </metadata>
+  <files>
+    <file src="..\SafeNuGet\bin\Debug\SafeNuGet.dll" target="build\SafeNuGet.dll" />
+    <file src="build\Net40\SafeNuGet.targets" target="build\SafeNuGet.targets" />
+  </files>
 </package>

@@ -13,19 +13,19 @@ namespace SafeNuGet
 {
     public class AreNuGetPackagesSafe : Task
     {
+        public string ProjectPath { get; set; }
 
         public override bool Execute()
         {
-            Console.WriteLine("FACK");
-            var path = new FileInfo(this.BuildEngine.ProjectFileOfTaskNode).Directory;
-            var nugetFile = Path.Combine(path.ToString(), "packages.config");
+            var nugetFile = Path.Combine(ProjectPath, "packages.config");
+            BuildEngine.LogMessageEvent(new BuildMessageEventArgs("Checking " + nugetFile + " ...", "", "SafeNuGet", MessageImportance.High));
             if (File.Exists(nugetFile))
             {
                 var packages = new NuGetPackageLoader().LoadPackages(nugetFile);
                 var unsafePackages = new PackageListLoader().GetUnsafePackages();
                 var failures = new DecisionMaker().Evaluate(packages, unsafePackages);
                 if (failures.Count() == 0) {
-                    BuildEngine.LogMessageEvent(new BuildMessageEventArgs("No vulnerable packages found", "", "SafeNuGet", MessageImportance.Normal));
+                    BuildEngine.LogMessageEvent(new BuildMessageEventArgs("No vulnerable packages found", "", "SafeNuGet", MessageImportance.High));
                 } else {
                     foreach(var k in failures) {
                         var s = k.Key.Id + " " + k.Key.Version;
@@ -35,7 +35,7 @@ namespace SafeNuGet
                 }
 
             } else {
-                BuildEngine.LogMessageEvent(new BuildMessageEventArgs("No packages.config found", "", "SafeNuGet", MessageImportance.Normal));
+                BuildEngine.LogMessageEvent(new BuildMessageEventArgs("No packages.config found", "", "SafeNuGet", MessageImportance.High));
             }
             return true;
         }

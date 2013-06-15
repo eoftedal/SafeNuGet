@@ -51,7 +51,7 @@ namespace SafeNuGet
                 } else {
                     foreach(var k in failures) {
                         var s = k.Key.Id + " " + k.Key.Version;
-                        BuildEngine.LogWarningEvent(new BuildWarningEventArgs("SECURITY ERROR", s, nugetFile, 0, 0, 0, 0, "Library is vulnerable: " + s, "", "SafeNuGet"));
+                        BuildEngine.LogWarningEvent(new BuildWarningEventArgs("SECURITY ERROR", s, nugetFile, 0, 0, 0, 0, "Library is vulnerable: " + s + " " + k.Value.InfoUri , "", "SafeNuGet"));
                     }
                     return false;
                 }

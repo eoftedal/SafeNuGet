@@ -5,8 +5,9 @@
   
   <!-- Actual packages - Have something you want to add? Please send a pull request -->
   <!-- possible version descriptors are version, before, beforeOrAt, after, afterOrAt -->
-  <package id="AntiXSS" before="4.2.1" />
-  <package id="Bytescout.Spreadsheet" before="2.30.1183" />
-  <package id="Aspose.Pdf" before="7.4.0" />
+  <package id="AntiXSS" before="4.2.1" infoUri="http://technet.microsoft.com/en-us/security/bulletin/ms12-007" />
+  <package id="Bytescout.Spreadsheet" before="2.30.1183" infoUri="https://nuget.org/packages/Bytescout.Spreadsheet/2.3.0.1247" />
+  <package id="Aspose.Pdf" before="7.4.0" infoUri="https://nuget.org/packages/Aspose.Pdf/7.4.0" />
+  <pacakge id="NServiceBus" before="3.2.8" infoUri="http://tech.groups.yahoo.com/group/nservicebus/message/15582" />
 
 </unsafepackages>

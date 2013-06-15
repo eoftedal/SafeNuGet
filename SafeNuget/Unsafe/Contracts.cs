@@ -29,6 +29,9 @@ namespace SafeNuGet.Unsafe
         public String After { get; set; }
         [XmlAttribute(AttributeName = "afterOrAt")]
         public String AfterOrAt { get; set; }
+        [XmlAttribute(AttributeName = "infoUri")]
+        public String InfoUri { get; set; }
+
 
         public Boolean Is(NuGetPackage nugetPackage) 
         {

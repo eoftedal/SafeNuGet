@@ -10,7 +10,7 @@ Installation
 
 Want to contribute?
 ===================
-Great! If you want to contribute to the list of unsafe libraries, please create a pull request or email me at erlend@oftedal.no.
+Great! If you want to contribute to the list of unsafe libraries, please create a pull request, register it as an [issue](https://github.com/eoftedal/SafeNuGet/issues) or email me at erlend@oftedal.no.
 
 Code contributions are also very welcome. Fork and create a pull request.
 

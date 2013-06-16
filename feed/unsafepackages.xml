@@ -9,5 +9,7 @@
   <package id="Bytescout.Spreadsheet" before="2.30.1183" infoUri="https://nuget.org/packages/Bytescout.Spreadsheet/2.3.0.1247" />
   <package id="Aspose.Pdf" before="7.4.0" infoUri="https://nuget.org/packages/Aspose.Pdf/7.4.0" />
   <pacakge id="NServiceBus" before="3.2.8" infoUri="http://tech.groups.yahoo.com/group/nservicebus/message/15582" />
+  <pacakge id="Microsoft.Data.Services" beforeOrAt="5.0.1" infoUri="http://blogs.msdn.com/b/astoriateam/archive/2012/10/09/important-security-advisory-2749655-affects-wcf-ds.aspx" />
+  <package id="MvvmLight" before="4.1.26.0" infoUri="http://www.galasoft.ch/mvvm/installing/changes/" />
 
 </unsafepackages>

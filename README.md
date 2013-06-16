@@ -1,6 +1,7 @@
 SafeNuGet
 =========
-MsBuild task to warn about insecure NuGet libraries
+MsBuild task to warn about insecure NuGet libraries:
+https://nuget.org/packages/SafeNuGet/
 
 Installation
 ============

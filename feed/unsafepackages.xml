@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unsafepackages>
+
+  <!-- DEPRECATED
+  THIS FILE IS NO LONGER UPDATED
+  SEE https://github.com/OWASP/SafeNuGet/ INSTEAD -->
+
+
   <!-- Demo purposes only -->
   <package id="NonExistent" version="1.0.0" />
   

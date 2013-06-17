@@ -20,4 +20,9 @@
   <package id="UmbracoCms" before="6.0.5" afterOrAt="6.0.0" infoUri="http://umbraco.com/follow-us/blog-archive/2013/5/1/security-update-two-major-vulnerabilities-found.aspx" />
   <package id="UmbracoCms" before="4.11.8" afterOrAt="4.5.0" infoUri="http://umbraco.com/follow-us/blog-archive/2013/5/1/security-update-two-major-vulnerabilities-found.aspx" />
 
+  <!-- DEPRECATED
+  THIS FILE IS NO LONGER UPDATED
+  SEE https://github.com/OWASP/SafeNuGet/ INSTEAD -->
+
+
 </unsafepackages>
